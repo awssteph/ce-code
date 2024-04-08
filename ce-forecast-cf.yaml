@@ -21,7 +21,7 @@ Resources:
             Fn::GetAtt:
             - Lambda
             - Arn
-          Id: WeeklyTriggerForRSSWdata
+          Id: WeeklyTriggerForEmail
   LambdaRole:
     Type: AWS::IAM::Role
     Properties:
